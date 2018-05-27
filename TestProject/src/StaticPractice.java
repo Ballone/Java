@@ -33,10 +33,10 @@ public class StaticPractice {
 		System.out.println("static m : " +m+ ", sp1.n = " +sp1.n+ ", sp2.n = " +sp2.n);
 		
 		
-		// sp1.f = 6; f cannot be modified
+		// sp1.f = 6; error : f cannot be modified
 		
 	}
 }
 class finalPractice extends StaticPractice{
-	
+	// final void j() {} error : final method cannot be overrided
 }
